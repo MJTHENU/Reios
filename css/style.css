@@ -218,7 +218,7 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/wind.gif) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/about_wind.gif) center center no-repeat;
     background-size: cover;
 }
 
@@ -233,6 +233,25 @@
     text-align: justify; /* Justify text alignment */
     margin-bottom: 15px;
 }
+
+@media (min-width: 768px) {
+    .page-header {
+        background-size: cover;
+    }
+}
+@media (min-width: 1024px) {
+    .page-header {
+        background-size: cover;
+        height: 500px;
+    }
+}
+@media (max-width: 768px) {
+    .page-header {
+        background-size: cover;
+        height: 400px;
+    }
+}
+
 @media (min-width: 992px) {
     .container.about {
         max-width: 100% !important;
